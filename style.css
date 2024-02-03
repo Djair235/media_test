@@ -34,7 +34,7 @@ html, body {
     width: fit-content;
     height: fit-content;
     margin-top: 55px;
-    margin-left: 1040px;
+    
    
 
 }
@@ -43,6 +43,17 @@ html, body {
     margin-top: 50px;
 }
 
+#div-sla {
+    display: flex;
+    justify-content: center;
+}
+
+#img-img {
+    border: 5px solid black;
+    border-radius: 25px;
+    height: 780px;
+    width: 600px;
+}
 
 @media screen and (max-width: 767px) {
     html, body {
@@ -54,6 +65,7 @@ html, body {
 #div-sla {
     display: flex;
     justify-content: center;
+    
 }
 
 
